@@ -1,0 +1,1063 @@
+/* ----------------------------------------------------------------INVESTOR-PAGE */
+.investor-header {
+    height: auto;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+
+.planet {
+    padding-bottom: 200px;
+    position: relative;
+    top: 100px;
+    z-index: 1;
+}
+
+.planet h1 {
+    padding-top: 150px;
+    display: flex;
+    width: 620px;
+    height: 90%;
+    min-height: 400px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 46px;
+
+}
+
+.planet img {
+    position: absolute;
+    width: 60%;
+    height: auto;
+    right: 0;
+    bottom: 0;
+}
+
+/* ----------------------------------------------------------------INVESTOR-SUCCESs */
+#investor-main {
+    margin-top: 0px;
+    position: relative;
+}
+
+#success-investor {
+    padding-top: 130px;
+    height: max-content;
+    padding-bottom: 50px;
+    background: #F8F8F8;
+    position: relative;
+}
+
+#success-investor h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: #2F302F;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #1B7EFF,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+#success-investor .success-card {
+    height: 400px;
+}
+
+#success-investor .success-card-title {
+    background: rgba(7, 48, 82, 0.9);
+}
+
+#success-investor .success-arrow svg path {
+    fill: #fff;
+}
+
+#success-investor strong {
+    color: #7BB1F8;
+}
+
+/* ----------------------------------------------FORM UP */
+#form-investor-up {
+    height: 135px;
+    background: linear-gradient(90.68deg, #102536 0%, #21527A 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    z-index: 1;
+    padding: 45px 50px 40px 34px;
+}
+
+.form-container-up {
+    position: absolute;
+    top: -70px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.form-body {
+    display: flex;
+    height: 50px;
+}
+
+#form-investor-up input:focus {
+    border: 1px solid #1B7EFF;
+    outline: 0px !important;
+}
+.form-body-text{
+    max-width: 358px;
+}
+.form-body p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.form-row {
+    margin-left: 0px;
+}
+
+.form-body input {
+    width: 205px;
+    height: 50px;
+    margin-right: 10px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    padding: 13px;
+    border: 1px solid transparent;
+    transition: .2s all ease-in-out;
+}
+
+#form-investor-up .wpcf7 form.sent .wpcf7-response-output {
+    position: absolute;
+    bottom: -10px;
+    color: #fff;
+    right: 25px;
+    border-color: transparent;
+}
+
+.form-body form {
+    display: flex;
+}
+
+.form-body .btn-subscribe {
+    width: 205px;
+    height: 50px;
+    background: #1B7EFF;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+/* -------------------------------------------DIFERENT-INVESTOR */
+#diferent-investor {
+    background-color: #fff;
+    padding: 100px 0px 0px;
+}
+
+#diferent-investor h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #2F302F;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #1B7EFF,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+#diferent-investor h3 {
+    margin-bottom: 115px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #21527A;
+}
+
+#diferent-investor .diferent-block-l {
+    padding: 70px 30px;
+    margin-bottom: 150px;
+}
+
+#diferent-investor .diferent-block-r {
+    margin-bottom: 150px;
+}
+
+#diferent-investor .diferent-block-r img {
+    left: -20px;
+    top: -70px;
+    max-height: 420px;
+}
+
+/* -------------------------------------------HOW WE WORK */
+#how_we_work {
+    background-color: #fff;
+    padding: 150px 0px 170px;
+}
+
+#how_we_work h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #2F302F;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #1B7EFF,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+#how_we_work h3 {
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #21527A;
+}
+
+.hww-block {
+    height: 300px;
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: flex;
+}
+
+.hww-icon {
+    padding: 15px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    height: max-content;
+    margin-right: 40px;
+}
+
+.hww-block p {
+    color: #2F302F;
+}
+
+/* ---------------------------------------WHAT INDUSTRIES */
+
+#what_industries {
+    padding: 70px 0px 80px;
+    background: linear-gradient(138.58deg, #14222D 2.98%, #21527A 69.47%);
+    background-size: 600% 600%;
+    position: relative;
+    -webkit-animation: AnimationName 10s ease infinite;
+
+    -moz-animation: AnimationName 10s ease infinite;
+
+    -o-animation: AnimationName 10s ease infinite;
+
+    animation: AnimationName 10s ease infinite;
+}
+
+#what_industries h2 {
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(to right, #1B7EFF,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+    padding-bottom: 20px;
+    max-width: 280px;
+}
+
+.what_industries-block {
+    padding: 30px 30px 10px;
+    width: 100%;
+    height: auto;
+    background: rgba(6, 32, 53, 0.5);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+
+.what_industries-block ul li {
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.what_industries-block ul li:before {
+    content: "";
+    position: absolute;
+    padding-right: 0px;
+    width: 11px;
+    height: 11px;
+    left: -20px;
+    top: 7px;
+    background: #1B7CFC;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+
+#what_industries .form {
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    padding: 35px 25px;
+    background: rgba(6, 32, 53, 0.5);
+    border: 2px solid #7BB1F8;
+    box-sizing: border-box;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+
+#what_industries .form p {
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 27px;
+    max-width: 400px;
+    margin-right: 30px;
+    height: 53px;
+}
+
+#what_industries form {
+    display: flex;
+}
+
+#what_industries .form input {
+    height: 53px;
+    width: 200px;
+    padding: 16px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-right: 20px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 16px;
+    transition: .2s all ease-in-out;
+}
+
+#what_industries .form input:focus {
+    border: 1px solid #1B7EFF;
+    outline: 0px !important;
+}
+
+#what_industries .wpcf7 {
+    display: flex;
+}
+
+#what_industries .form input[type="submit"] {
+    background: #1B7EFF;
+    border-radius: 4px;
+    border: 0px;
+    height: 53px;
+    width: 200px;
+    align-items: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#what_industries .form input::placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#what_industries .form input::-ms-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#what_industries .form input::-webkit-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#what_industries .happyforms-flex {
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+#what_industries .screen-reader-response {
+    display: none !important;
+}
+
+#what_industries .wpcf7-response-output {
+    color: #fff;
+    position: absolute;
+    bottom: -15px;
+    right: 0px;
+    text-align: right;
+    border: none !important;
+}
+
+
+/* ----------------------------------------------join_communities */
+#join_communities {
+    background: #fff;
+    padding: 80px 70px;
+}
+
+#join_communities h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    color: #2F302F;
+    border-bottom: 4px solid;
+    border-image-source: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #1B7EFF,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+.our_communities {
+    margin-bottom: 80px;
+}
+
+.our_communities a {
+    height: max-content;
+    width: max-content;
+}
+
+.com-social-link {
+    text-align: center;
+    width: 190px;
+    height: 190px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    display: table;
+    transition: 0.3s all ease-in-out;
+}
+
+.com-social-link svg {
+    margin-bottom: 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+.com-social-link p {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2F302F;
+    transition: 0.3s all ease-in-out;
+}
+
+.com-social-link:hover {
+    background: #21527A;
+}
+
+.com-social-link:hover svg path {
+    fill: #fff;
+}
+
+.com-social-link:hover p {
+    color: #fff;
+}
+
+.com-social-link {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+#join_communities h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    display: block;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    text-transform: uppercase;
+    color: #21527A;
+}
+
+#join_communities .form {
+    background: #F2F2F2;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 80px;
+    display: block;
+    height: max-content;
+    padding: 50px 0px;
+}
+
+#join_communities .form h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #2F302F;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 4px solid transparent;
+    border-image-source: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), #1B7EFF, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+#join_communities .form-container {
+    width: 515px;
+    display: block;
+    margin: 0 auto;
+}
+
+#join_communities input {
+    padding: 16px;
+    width: 244px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    transition: .2s all ease-in-out;
+}
+
+#join_communities .message-name {
+    margin-left: 20px;
+}
+
+#join_communities textarea {
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 16px;
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0px 45px;
+    height: 100px;
+    resize: none;
+    transition: .2s all ease-in-out;
+}
+
+#join_communities input[type="submit"] {
+    background: #1B7EFF;
+    border-radius: 4px;
+    height: 50px;
+    width: 250px;
+    margin: 0 auto;
+    display: block;
+    border: 0px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities input[type="email"] {
+    margin-left: 5px;
+}
+
+#join_communities input[type="email"] {
+    margin-left: 5px;
+}
+
+#join_communities input[type="text"] {
+    margin-left: 25px;
+}
+
+#join_communities .form input::placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form input::-ms-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form input::-webkit-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form textarea::placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form textarea::-ms-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form textarea::-webkit-input-placeholder {
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #4C4E4C;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+#join_communities .form input:focus {
+    border: 1px solid #1B7EFF;
+}
+
+#join_communities .form textarea:focus {
+    border: 1px solid #1B7EFF;
+}
+
+#contact-form-invest .wpcf7 form.sent .wpcf7-response-output {
+    border: transparent;
+    text-align: center;
+}
+
+.disclaimer h3 {
+    color: #2F302F !important;
+    margin-bottom: 20px !important;
+}
+
+.disclaimer p {
+    color: #6D6D6D;
+}
+
+/* -------------------------------------------------investor-footer */
+#investor-footer {
+    padding: 80px 0px 50px;
+}
+
+@media (max-width: 1200px) {
+
+    /* ----------------------------------------------------------------INVESTOR-PAGE */
+
+    .planet h1 {
+        z-index: 2;
+        position: relative;
+    }
+
+    .planet img {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        right: 0;
+        bottom: 0;
+    }
+
+    .form-body {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #form-investor-up {
+        height: auto;
+        padding: 25px 25px 30px;
+    }
+
+    .form-container-up {
+        top: -180px;
+        padding: 0 15px;
+    }
+
+    .wpcf7 form.sent .wpcf7-response-output {
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+    .form-body form {
+        flex-direction: column;
+    }
+
+
+    .form-body p {
+        margin: 0 0 25px;
+        width: 100%;
+    }
+
+    .form-body input {
+        width: 100%;
+    }
+
+    .form-body .btn-subscribe {
+        height: 50px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .investor-header {
+        height: auto;
+        min-height: 500px;
+    }
+
+    .planet h1 {
+        padding-top: 80px;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 40px;
+        width: auto;
+    }
+
+    /* ------------------------------------------------------success-investor */
+    #success-investor {
+        padding-top: 220px;
+        padding-bottom: 0;
+        background-color: #fff;
+    }
+
+    #success-investor h2 {
+        padding-bottom: 5px;
+        text-align: left;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 20px;
+    }
+
+    #success-investor .success-card {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    /* --------------------------------------------diferent-investor */
+    #diferent-investor {
+        padding: 25px 0 0;
+        background-color: #fff;
+    }
+
+    #diferent-investor h2 {
+        padding-bottom: 5px;
+        text-align: left;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 20px;
+    }
+
+    #diferent-investor h3 {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+
+    #diferent-investor .diferent-block-r {
+        margin-bottom: 50px;
+    }
+
+    #diferent-investor .diferent-block-l {
+        padding: 0;
+        margin-bottom: 50px;
+    }
+
+    #diferent-investor .diferent-block-r img {
+        left: 0;
+        top: 0;
+    }
+
+    #investor-main #numbers {
+        background-image: none;
+        background: linear-gradient(138.58deg, #14222D 2.98%, #21527A 69.47%);
+        background-size: 600% 600%;
+        position: relative;
+        -webkit-animation: AnimationName 10s ease infinite;
+
+        -moz-animation: AnimationName 10s ease infinite;
+
+        -o-animation: AnimationName 10s ease infinite;
+
+        animation: AnimationName 10s ease infinite;
+    }
+
+    /* ----------------------------------------------how_we_work */
+    #how_we_work {
+        padding: 50px 0px 25px;
+    }
+
+    #how_we_work h2 {
+        padding-bottom: 5px;
+        text-align: left;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 20px;
+    }
+
+    #how_we_work h3 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+    .hww-block {
+        margin-bottom: 25px;
+        padding: 20px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hww-icon {
+        margin-bottom: 15px;
+        width: max-content;
+    }
+
+    /* ---------------------------------------WHAT INDUSTRIES */
+    #what_industries h2 {
+        max-width: 100%;
+        line-height: 37px;
+    }
+
+    .what_industries-block {
+        padding: 0;
+        background: transparent;
+    }
+
+    #what_industries .form {
+        flex-direction: column;
+        max-width: 500px;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    #what_industries .screen-reader-response {
+        right: 0;
+        left: 0;
+    }
+
+    #what_industries form {
+        flex-direction: column;
+        max-width: 500px;
+        display: block;
+    }
+
+    #what_industries .form p {
+        margin: 0 0 25px;
+        max-width: 100%;
+        height: auto;
+
+    }
+
+    #what_industries .wpcf7 {
+        flex-direction: column;
+    }
+
+    #what_industries .form input {
+        width: 100%;
+    }
+
+    #what_industries .form input[type="submit"] {
+        width: 100%;
+    }
+
+    .wpcf7-form-control-wrap {
+        width: 100%;
+    }
+
+    #what_industries .wpcf7-response-output {
+        text-align: center;
+        bottom: 0px;
+    }
+
+    /* ------------------------------------------join_communities */
+    #join_communities {
+        padding: 50px 0px 20px;
+    }
+
+    #join_communities h2 {
+        padding-bottom: 5px;
+        text-align: left;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 20px;
+    }
+
+    .our_communities {
+        margin-bottom: 40px;
+    }
+
+    .jc-box {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    .com-social-link {
+        margin: 0 auto;
+        display: block;
+        padding: 50px 0px;
+    }
+
+    #join_communities h3 {
+        text-align: left;
+    }
+
+    #join_communities form h2 {
+        text-align: left;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 0px;
+    }
+
+    #join_communities form {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        box-shadow: none;
+        border-radius: 0px;
+        margin-bottom: 0;
+    }
+
+    #join_communities .form-container {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #join_communities input {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #join_communities .message-name {
+        margin-left: 0;
+    }
+
+    #join_communities textarea {
+        margin: 20px 0px;
+    }
+
+    #join_communities button {
+        width: 100%;
+    }
+
+    #join_communities input[type="text"] {
+        margin-left: 0;
+    }
+
+    #join_communities input[type="email"] {
+        margin-left: 0;
+    }
+
+    #investor-footer {
+        padding: 80px 0px 160px;
+    }
+
+
+}
+
+@media(max-width:768px) {
+    .planet img {
+        width: auto;
+        height: 100%;
+        right: -150%;
+    }
+
+    #join_communities .form-container {
+        width: 100%;
+    }
+
+    #join_communities .form {
+        padding: 20px 15px 20px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        border-radius: 0;
+        height: auto;
+        box-shadow: none;
+        margin: 0 auto 50px;
+    }
+
+    #join_communities input[type="submit"] {
+        width: 100%;
+    }
+
+    #join_communities .form h2 {
+        text-align: left;
+        border-bottom: 4px;
+        border-style: solid;
+        border-image-source: linear-gradient(to right, #1B7EFF, #fff, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        border-image-slice: 1;
+        margin-bottom: 0px;
+    }
+
+    .disclaimer {
+        margin-top: 590px;
+    }
+
+    .com-social-link {
+        padding: 35px 0;
+        width: 135px;
+        height: 135px;
+    }
+
+    .com-social-link svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .com-social-link p {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    #join_communities h3 {}
+}
+
+@media(max-width:576px) {}
